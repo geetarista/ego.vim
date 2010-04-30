@@ -53,6 +53,7 @@ hi Todo                 gui=bold guifg=#C8F482 guibg=bg
 " Green #82c057
 hi Identifier           gui=NONE guifg=#82c057 guibg=bg
 hi Type                 gui=NONE guifg=#82c057 guibg=bg
+hi Function             gui=NONE guifg=#82c057 guibg=bg
 
 " Yellow
 hi Statement            gui=NONE guifg=#F6DA7B guibg=bg
@@ -76,7 +77,6 @@ hi Float                gui=NONE guifg=#776CC4 guibg=bg
 hi Boolean              gui=bold guifg=#776CC4 guibg=bg
 
 " Light Cyan
-hi Function             gui=NONE guifg=#95D5F1 guibg=bg
 hi StorageClass         gui=NONE guifg=#95D5F1 guibg=bg
 hi Structure            gui=NONE guifg=#95D5F1 guibg=bg
 hi Typedef              gui=NONE guifg=#95D5F1 guibg=bg
