@@ -39,7 +39,7 @@ hi SpecialKey           gui=NONE guibg=#103040 guifg=#324262
 hi StatusLine           gui=bold guibg=#484848 guifg=#000000
 hi StatusLineNC         gui=NONE guibg=#686868  guifg=#E0E0E0
 hi Title                gui=bold guifg=#9d7ff2 guibg=bg
-hi Visual               gui=reverse guibg=#ffffff guifg=#C8F482
+hi Visual               gui=reverse guibg=#ffffff guifg=#55747c
 hi VisualNOS            gui=bold,underline guifg=fg guibg=bg
 hi WarningMsg           gui=bold guifg=#FF0000 guibg=bg
 hi WildMenu             gui=bold guibg=#F6DA7B guifg=#000000
@@ -84,7 +84,7 @@ hi Constant             gui=NONE guifg=#95D5F1 guibg=bg
 
 " Dark Blue #9bb2ee
 
-" Dunno color: #55747c
+" Dunno color
 hi Special              gui=NONE guifg=#55747c guibg=bg
 hi Delimiter            gui=NONE guifg=#55747c guibg=bg
 hi SpecialChar          gui=NONE guifg=#55747c guibg=bg
