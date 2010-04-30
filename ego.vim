@@ -76,13 +76,13 @@ hi Number               gui=NONE guifg=#776CC4 guibg=bg
 hi Float                gui=NONE guifg=#776CC4 guibg=bg
 hi Boolean              gui=bold guifg=#776CC4 guibg=bg
 
-" Light Cyan
+" Cyan
 hi StorageClass         gui=NONE guifg=#95D5F1 guibg=bg
 hi Structure            gui=NONE guifg=#95D5F1 guibg=bg
 hi Typedef              gui=NONE guifg=#95D5F1 guibg=bg
 hi Constant             gui=NONE guifg=#95D5F1 guibg=bg
 
-" Dark Blue #9bb2ee
+" Blue #9bb2ee
 
 " Dunno color
 hi Special              gui=NONE guifg=#55747c guibg=bg
