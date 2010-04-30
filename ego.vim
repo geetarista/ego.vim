@@ -18,38 +18,38 @@ hi Cursor               gui=NONE guibg=#8DA1A1 guifg=#ffffff
 hi CursorIM             gui=bold guifg=#ffffff guibg=#8DA1A1
 hi CursorLine           gui=NONE guibg=#3D4646 " Uncomment for lighter line bgcolor: #202129
 hi CursorColumn         gui=NONE guibg=#3D4646 " Uncomment for lighter line bgcolor: #202129
-hi Directory            gui=NONE guifg=red guibg=bg
-hi DiffAdd              gui=NONE guifg=fg guibg=DarkCyan
-hi DiffChange           gui=NONE guifg=fg guibg=Green4
-hi DiffDelete           gui=NONE guifg=fg guibg=black
-hi DiffText             gui=bold guifg=fg guibg=bg
-hi ErrorMsg                      guifg=LightYellow  guibg=FireBrick
-hi VertSplit            gui=NONE guifg=black guibg=grey60
+hi Directory            gui=NONE guifg=#82c057 guibg=bg
+hi DiffAdd              gui=NONE guifg=fg      guibg=#9bb2ee
+hi DiffChange           gui=NONE guifg=fg      guibg=#82c057
+hi DiffDelete           gui=NONE guifg=fg      guibg=#000000
+hi DiffText             gui=bold guifg=fg      guibg=bg
+hi ErrorMsg             gui=NONE guifg=#FFFF99 guibg=#FF0000
+hi VertSplit            gui=NONE guifg=#000000 guibg=#686868
 hi Folded               gui=bold guibg=#305060 guifg=#b0d0e0
 hi FoldColumn           gui=NONE guibg=#305060 guifg=#b0d0e0
 hi IncSearch            gui=reverse guifg=fg guibg=bg
-hi LineNr               guibg=grey6 guifg=#777777
-hi ModeMsg              guibg=DarkGreen guifg=LightGreen
-hi MoreMsg              gui=bold  guifg=SeaGreen4 guibg=bg
-hi NonText              gui=NONE guibg=#000000 guifg=LightSkyBlue
+hi LineNr               gui=NONE guibg=#000000 guifg=#686868
+hi ModeMsg              gui=NONE guibg=#82c057 guifg=#C8F482
+hi MoreMsg              gui=bold guifg=#C8F482 guibg=bg
+hi NonText              gui=NONE guibg=#000000 guifg=#95D5F1
 hi Normal               gui=NONE guibg=#18191F guifg=#F6F6F6
-hi Question             gui=bold  guifg=SeaGreen2 guibg=bg
-hi Search               gui=NONE guibg=LightSkyBlue4 guifg=NONE
-hi SpecialKey           guibg=#103040 guifg=#324262
-hi StatusLine           gui=bold guibg=grey88 guifg=black
-hi StatusLineNC         gui=NONE guibg=grey60 guifg=grey10
-hi Title                gui=bold  guifg=MediumOrchid1 guibg=bg
-hi Visual               gui=reverse guibg=#ffffff guifg=SeaGreen
+hi Question             gui=bold guifg=#C8F482 guibg=bg
+hi Search               gui=NONE guibg=#95D5F1 guifg=NONE
+hi SpecialKey           gui=NONE guibg=#103040 guifg=#324262
+hi StatusLine           gui=bold guibg=#484848 guifg=#000000
+hi StatusLineNC         gui=NONE guibg=#686868  guifg=#E0E0E0
+hi Title                gui=bold guifg=#9d7ff2 guibg=bg
+hi Visual               gui=reverse guibg=#ffffff guifg=#C8F482
 hi VisualNOS            gui=bold,underline guifg=fg guibg=bg
-hi WarningMsg           gui=bold guifg=FireBrick1 guibg=bg
-hi WildMenu             gui=bold guibg=Chartreuse guifg=Black
+hi WarningMsg           gui=bold guifg=#FF0000 guibg=bg
+hi WildMenu             gui=bold guibg=#F6DA7B guifg=#000000
 
 " General Syntax Colors
 
 " Light green
 hi Comment              gui=NONE guifg=#C8F482 guibg=bg
 
-" Green #82c057
+" Green
 hi Identifier           gui=NONE guifg=#82c057 guibg=bg
 hi Type                 gui=NONE guifg=#82c057 guibg=bg
 hi Function             gui=NONE guifg=#82c057 guibg=bg
@@ -101,12 +101,12 @@ hi Keyword              gui=NONE guifg=#C67C48 guibg=bg
 hi Exception            gui=NONE guifg=#C67C48 guibg=bg
 
 " Other
-hi Underlined           gui=underline guifg=honeydew4 guibg=bg
-hi Ignore               guifg=#204050
-hi Error                guifg=LightYellow  guibg=FireBrick
+hi Underlined           gui=underline guifg=#C8F482 guibg=bg
+hi Ignore               guifg=#55747c
+hi Error                guifg=#FFFF99  guibg=#FF0000
 
 " Ruby-specific
-hi rubySharpBang gui=bold guifg=#e29aeb
+hi rubySharpBang        gui=bold guifg=#e29aeb
 hi rubyRegexp           guifg=#9BB2EE
 " hi link rubyRegexpDelimiter Special
 " hi link rubyEscape Special " Backslashes
