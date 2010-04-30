@@ -48,7 +48,6 @@ hi WildMenu             gui=bold guibg=Chartreuse guifg=Black
 
 " Light green
 hi Comment              gui=NONE guifg=#C8F482 guibg=bg
-hi Todo                 gui=bold guifg=#C8F482 guibg=bg
 
 " Green #82c057
 hi Identifier           gui=NONE guifg=#82c057 guibg=bg
@@ -66,7 +65,8 @@ hi Macro                gui=NONE guifg=#F6DA7B guibg=bg
 " Rose
 hi String               gui=NONE guifg=#E38081 guibg=bg
 
-" Pink #e29aeb
+" Pink
+hi Todo                 gui=bold guifg=#e29aeb guibg=bg
 
 " Light Purple
 hi Character            gui=NONE guifg=#9d7ff2 guibg=bg
