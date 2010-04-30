@@ -16,8 +16,8 @@ let g:colors_name = "ego"
 " GUI Colors
 hi Cursor               gui=NONE guibg=#8DA1A1 guifg=#ffffff
 hi CursorIM             gui=bold guifg=#ffffff guibg=#8DA1A1
-hi CursorLine           gui=NONE guibg=#3D4646
-hi CursorColumn         gui=NONE guibg=#3D4646
+hi CursorLine           gui=NONE guibg=#3D4646 " Uncomment for lighter line bgcolor: #202129
+hi CursorColumn         gui=NONE guibg=#3D4646 " Uncomment for lighter line bgcolor: #202129
 hi Directory            gui=NONE guifg=red guibg=bg
 hi DiffAdd              gui=NONE guifg=fg guibg=DarkCyan
 hi DiffChange           gui=NONE guifg=fg guibg=Green4
