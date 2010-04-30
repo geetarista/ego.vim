@@ -10,5 +10,4 @@ Just copy ego.vim to ~/vim/colors
 
 ## Screenshot
 
-{Screenshot}[link:../api/files/README.html]
 ![ego screenshot](http://github.com/geetarista/ego.vim/raw/master/screenshot.png)
