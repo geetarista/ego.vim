@@ -34,7 +34,7 @@ hi MoreMsg              gui=bold guifg=#C8F482 guibg=bg
 hi NonText              gui=NONE guibg=#000000 guifg=#95D5F1
 hi Normal               gui=NONE guibg=#18191F guifg=#F6F6F6
 hi Question             gui=bold guifg=#C8F482 guibg=bg
-hi Search               gui=NONE guibg=#95D5F1 guifg=NONE
+hi Search               gui=NONE guibg=#95D5F1 guifg=#18191F
 hi SpecialKey           gui=NONE guibg=#103040 guifg=#324262
 hi StatusLine           gui=bold guibg=#484848 guifg=#000000
 hi StatusLineNC         gui=NONE guibg=#686868  guifg=#E0E0E0
