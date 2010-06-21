@@ -43,6 +43,8 @@ hi Visual               gui=reverse guibg=#ffffff guifg=#55747c
 hi VisualNOS            gui=bold,underline guifg=fg guibg=bg
 hi WarningMsg           gui=bold guifg=#FF0000 guibg=bg
 hi WildMenu             gui=bold guibg=#F6DA7B guifg=#000000
+hi Pmenu                guibg=#e38081 guifg=#ffffff
+hi PmenuSel             guibg=#3D4646 guifg=#ffffff
 
 " General Syntax Colors
 
