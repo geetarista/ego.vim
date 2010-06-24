@@ -45,6 +45,7 @@ hi WarningMsg           gui=bold guifg=#FF0000 guibg=bg
 hi WildMenu             gui=bold guibg=#F6DA7B guifg=#000000
 hi Pmenu                guibg=#e38081 guifg=#ffffff
 hi PmenuSel             guibg=#3D4646 guifg=#ffffff
+hi NonText              guibg=bg guifg=#e29aeb
 
 " General Syntax Colors
 
