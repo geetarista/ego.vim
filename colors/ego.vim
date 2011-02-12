@@ -47,6 +47,8 @@ hi Pmenu                guibg=#e38081 guifg=#ffffff
 hi PmenuSel             guibg=#3D4646 guifg=#ffffff
 hi NonText              guibg=bg guifg=#e29aeb
 
+hi ColorColumn          guibg=#3D4646
+
 " General Syntax Colors
 
 " Light green
