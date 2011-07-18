@@ -46,6 +46,7 @@ hi WildMenu             gui=bold guibg=#F6DA7B guifg=#000000
 hi Pmenu                guibg=#e38081 guifg=#ffffff
 hi PmenuSel             guibg=#3D4646 guifg=#ffffff
 hi NonText              guibg=bg guifg=#e29aeb
+hi Scrollbar            guibg=bg
 
 hi ColorColumn          guibg=#3D4646
 
